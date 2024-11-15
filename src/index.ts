@@ -37,6 +37,6 @@ app.get("/meta/:slug", async (c) => {
 });
 
 export default {
-  port: 8081,
+  port: 8100,
   fetch: app.fetch,
 };
